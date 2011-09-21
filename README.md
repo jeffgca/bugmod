@@ -1,7 +1,7 @@
 # BugMod
 
-The intention is to implement an increasing array of tweaks to Mozilla's Bugzilla
-UI, possibly inspired by TaraG's tweaks to ActiveState's [bugzilla](http://bugs.activestate.com).
+*The intention is to implement an increasing array of tweaks to Mozilla's Bugzilla
+UI, possibly inspired by TaraG's tweaks to ActiveState's [bugzilla](http://bugs.activestate.com).*
 
 __Implemented so far:__
 
