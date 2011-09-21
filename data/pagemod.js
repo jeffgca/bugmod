@@ -16,9 +16,9 @@ this.listMod = function() {
     
     /* stick it up top */
     $("li.form").after("<li>" +
-                        '<span class="separator"> | <span>' +
-                        raw +
-                        "</li>"
+        '<span class="separator"> | <span>' +
+        raw +
+        "</li>"
     );
 }
 
