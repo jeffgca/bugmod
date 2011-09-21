@@ -1,8 +1,8 @@
-
 /**
- * namespace bugmod
+ * bugmod
+ *
+ * Utility functions for various UI tweaks to Mozilla's bugzilla.
  */
-
 if(typeof(bugmod) == 'undefined') {
     var bugmod = {};
 }
@@ -10,8 +10,11 @@ if(typeof(bugmod) == 'undefined') {
 (function() {
 
 this.listMod = function() {
+    
+    /* grab the link from the bottom */
     var raw = $("td.bz_query_edit").html();
-    // console.log(raw);
+    
+    /* stick it up top */
     $("li.form").after("<li>" +
                         '<span class="separator"> | <span>' +
                         raw +
